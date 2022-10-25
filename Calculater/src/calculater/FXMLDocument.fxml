@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculater.FXMLDocumentController">
+   <children>
+      <Button fx:id="seven" layoutX="109.0" layoutY="137.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="7" />
+      <Button fx:id="four" layoutX="109.0" layoutY="211.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="4" />
+      <Button fx:id="eight" layoutX="175.0" layoutY="135.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="8" />
+      <Button fx:id="five" layoutX="175.0" layoutY="211.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="5" />
+      <Button fx:id="one" layoutX="109.0" layoutY="284.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="1" />
+      <Button fx:id="two" layoutX="175.0" layoutY="284.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="2" />
+      <Button fx:id="nine" layoutX="247.0" layoutY="135.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="9" />
+      <Button fx:id="six" layoutX="247.0" layoutY="211.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="6" />
+      <Button fx:id="three" layoutX="247.0" layoutY="284.0" mnemonicParsing="false" onAction="#Number" prefHeight="60.0" prefWidth="58.0" text="3" />
+      <Button fx:id="zero" layoutX="106.0" layoutY="356.0" mnemonicParsing="false" onAction="#Number" prefHeight="44.0" prefWidth="64.0" text="0" />
+      <Button fx:id="equal" layoutX="247.0" layoutY="351.0" mnemonicParsing="false" onAction="#Operation" prefHeight="51.0" prefWidth="58.0" text="=" />
+      <Button fx:id="divide" layoutX="316.0" layoutY="137.0" mnemonicParsing="false" onAction="#Operation" prefHeight="60.0" prefWidth="58.0" text="/" />
+      <Button fx:id="multiply" layoutX="316.0" layoutY="211.0" mnemonicParsing="false" onAction="#Operation" prefHeight="60.0" prefWidth="58.0" text="*" />
+      <Button fx:id="minus" layoutX="316.0" layoutY="284.0" mnemonicParsing="false" onAction="#Operation" prefHeight="60.0" prefWidth="58.0" text="-" />
+      <Button fx:id="plus" layoutX="316.0" layoutY="351.0" mnemonicParsing="false" onAction="#Operation" prefHeight="51.0" prefWidth="58.0" text="+" />
+      <TextField fx:id="answer" layoutX="111.0" layoutY="83.0" prefHeight="44.0" prefWidth="193.0" />
+      <Button fx:id="clear" layoutX="316.0" layoutY="83.0" mnemonicParsing="false" onAction="#clear" prefHeight="44.0" prefWidth="58.0" text="delete" />
+      <Button fx:id="point" layoutX="176.0" layoutY="356.0" mnemonicParsing="false" onAction="#Number" prefHeight="44.0" prefWidth="58.0" text="." />
+   </children>
+</AnchorPane>
